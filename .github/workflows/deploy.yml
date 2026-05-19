@@ -34,3 +34,4 @@ jobs:
           version_label: ${{ github.sha }}
           region: ${{ secrets.AWS_REGION }}
           deployment_package: deploy.zip
+          existing_bucket_name: portal-pegawai-106-2026
